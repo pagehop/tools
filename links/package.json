@@ -2,7 +2,7 @@
   "name": "pagehop-links-tool",
   "description": "Tool to get all links on a page.",
   "version": "0.1.0",
-  "homepage": "https://github.com/pagehop/tools/pagehop-links-tool",
+  "homepage": "https://github.com/pagehop/tools/tree/master/links",
   "author": {
     "name": "nicroto",
     "email": "nikolay@tsenkov.net",

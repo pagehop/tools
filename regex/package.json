@@ -2,7 +2,7 @@
   "name": "pagehop-regex-tool",
   "description": "Tool for regex matching on the current results.",
   "version": "0.1.0",
-  "homepage": "https://github.com/pagehop/tools/pagehop-regex-tool",
+  "homepage": "https://github.com/pagehop/tools/tree/master/regex",
   "author": {
     "name": "nicroto",
     "email": "nikolay@tsenkov.net",

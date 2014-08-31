@@ -3,7 +3,7 @@
   "description": "System tool to select an item in the current results",
   "version": "0.1.0",
 
-  "homepage": "https://github.com/pagehop/tools/pagehop-select-tool",
+  "homepage": "https://github.com/pagehop/tools/tree/master/select",
   "author": {
     "name": "nicroto",
     "email": "nikolay@tsenkov.net",

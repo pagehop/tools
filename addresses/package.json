@@ -2,7 +2,7 @@
   "name": "pagehop-addresses-tool",
   "description": "Converts the results in a list of addresses (for search on address).",
   "version": "0.1.0",
-  "homepage": "https://github.com/pagehop/tools/pagehop-addresses-tool",
+  "homepage": "https://github.com/pagehop/tools/tree/master/addresses",
   "author": {
     "name": "nicroto",
     "email": "nikolay@tsenkov.net",
