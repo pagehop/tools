@@ -1,8 +1,10 @@
 {
   "name": "pagehop-links-tool",
   "description": "Tool to get all links on a page.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/pagehop/tools/tree/master/links",
+  "version": "0.2.0",
+
+  "homepage": "https://github.com/pagehop/tools/blob/master/links/README.md",
+
   "author": {
     "name": "nicroto",
     "email": "nikolay@tsenkov.net",

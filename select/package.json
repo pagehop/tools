@@ -1,9 +1,10 @@
 {
   "name": "pagehop-select-tool",
   "description": "System tool to select an item in the current results",
-  "version": "0.1.0",
+  "version": "0.2.0",
 
-  "homepage": "https://github.com/pagehop/tools/tree/master/select",
+  "homepage": "https://github.com/pagehop/tools/blob/master/select/README.md",
+
   "author": {
     "name": "nicroto",
     "email": "nikolay@tsenkov.net",
