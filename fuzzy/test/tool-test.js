@@ -155,6 +155,51 @@ describe( "fuzzy tool",function(){
 			}
 		);
 	});
+	it( "should not take spaces into consideration", function(done){
+		test.tool(
+			pathToTool,
+			function() {
+				var currentResults = [
+						{
+							text: "dfg"
+						},
+						{
+							text: "afg"
+						},
+						{
+							text: "abc"
+						},
+						{
+							text: "affbffcff"
+						}
+					],
+					hops = [],
+					argument = "a   b 	c",
+					selection = 0,
+					pagehop = window.pagehop;
+
+				pagehop.init( currentResults, hops, argument, selection );
+			},
+			function(results) {
+				should.exist( results );
+				results.should.eql( {
+					items: [
+						{
+							text: "abc",
+							displayText: "<b>a</b><b>b</b><b>c</b>"
+						},
+						{
+							text: "affbffcff",
+							displayText: "<b>a</b>ff<b>b</b>ff<b>c</b>ff"
+						}
+					],
+					hops: [],
+					selection: 0
+				} );
+				done();
+			}
+		);
+	});
 	after( function(done) {
 		test.finalize( done );
 	} );

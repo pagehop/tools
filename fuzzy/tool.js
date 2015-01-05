@@ -7,7 +7,10 @@ var currentResults = pagehop.getCurrentResults(),
 
 if ( !searchStr ) {
 	pagehop.finish( currentResults );
+	return;
 }
+
+searchStr = searchStr.replace( /(\s)|(\t)/g, "" );
 
 var options = {
 	pre: '<b>',
