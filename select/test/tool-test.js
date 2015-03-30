@@ -8,6 +8,7 @@ var test = require("pagehop").test;
 var pathToTool = pathUtils.resolve( __dirname, '../' );
 
 describe( "select tool",function(){
+	this.timeout( 10000 );
 	before( function(done) {
 		test.init( done );
 	} );
